@@ -1,7 +1,7 @@
 {%- assign default_paths = site.pages | map: "path" -%}
 {%- assign page_paths = site.header_pages | default: default_paths -%}
 {%- if page_paths -%}
-  <div class="uk-position-relative">
+  <div class="uk-position-relative" uk-height-viewport>
     <img src="{{site.baseurl}}/assets/images/home.jpg" alt="">
     <div class="uk-position-top uk-container uk-container-small">
       <nav class="uk-navbar-container uk-navbar-transparent uk-padding-large uk-padding-remove-top uk-padding-remove-bottom" uk-navbar>
@@ -29,7 +29,7 @@
             <!-- <img data-src="{{site.baseurl}}/assets/images/contact.png" width="48" alt="Mensaje" uk-img> -->
             <a class="link-mail"> hola@daniela.tech</a>
           </div>
-          <div class="uk-text-center">
+          <div class="uk-text-center uk-visible@s">
             <img data-src="{{site.baseurl}}/assets/images/daniela.png" width="400" alt="Daniela" uk-img>
           </div>
         </div>
