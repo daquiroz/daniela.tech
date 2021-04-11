@@ -1,16 +1,9 @@
-- name: CAU
-  url: https://www.cau.cl/
-  description: Cambio y configuración de template de Wordpress.
-  techs: Wordpress
-  img: cau.jpg
-  when: "2016"
-  featured: false
-
 - name: Constructora Hammer
   url: https://constructorahammer.cl/
   description: Diseño y desarrollo de página web para Constructora Hammer.
   techs: Jekyll
   when: "2020"
+  img: hammer.jpg
   featured: false
 
 - name: TransformaPV
@@ -18,6 +11,7 @@
   description: Desarrollo de página web para el movimiento ciudadano Transforma Puerto Varas.
   techs: Jekyll
   when: "2021"
+  img: transformapv.jpg
   featured: false
 
 - name: Seminario de Medicina de Montaña
@@ -25,6 +19,7 @@
   description: Diseño y desarrollo de página web para Seminario de Medicina de Montaña.
   techs: Jekyll
   when: "2018"
+  img: smm.jpg
   featured: false
 
 - name: Alianza por algoritmos inclusivos
@@ -32,6 +27,7 @@
   description: Desarrollo de página web para <A+> Alianza por algoritmos inclusivos. Trabajo realizado en Fundación Ciudadanía Inteligente.
   techs: Ruby on Rails
   when: "2018"
+  img: aplus.jpg
   featured: false
 
 - name: Chile Marca Preferencia	
@@ -39,20 +35,15 @@
   description: Desarrollo de página web para Chile Marca preferencia. Trabajo realizado en Fundación Ciudadanía Inteligente.
   techs: Ruby on Rails
   when: "2018"
-  featured: false
-
-- name: Alianza por algoritmos inclusivos
-  url: https://aplusalliance.org/
-  description: Desarrollo de página web para <A+> Alianza por algoritmos inclusivos. Trabajo realizado en Fundación Ciudadanía Inteligente.
-  techs: Ruby on Rails
-  when: "2018"
+  img: chilemarca.jpg
   featured: false
 
 - name: Memoria Ambiental
-  url: https://aplusalliance.org/
+  url: https://memoriaambiental.org/
   description: Diseño y desarrollo de página web para Memoria Ambiental, iniciativa para contar historias de cómo el cambio climático está afectando comunidades.
   techs: Ruby on Rails
   when: "2018"
+  img: memoria.jpg
   featured: false
 
 - name: Las de Sistemas
@@ -64,10 +55,11 @@
   featured: true
 
 - name: Kosovo Trust Building	Ciudadanía
-  url: https://kosovotrustbuilding.org/
+  url: https://kosovotrustbuilding.com/
   description: Desarrollo de página web para Kosovo Trust Building, iniciativa que transparenta el cumplimiento de 152 medidas tomadas en un encuentro de tres estamentos.
   techs: Ruby on Rails
   when: "2018"
+  img: ktb.jpg
   featured: false
 
 - name: Ciudadanía Inteligente
@@ -79,7 +71,7 @@
 
 - name: Fundación Andescalada
   url: https://andescalada.org/
-  description: Diseño y desarrollo de página web para Fundación Andescalada.
+  description: Diseño y desarrollo de página web para Fundación Andescalada, que promueve el desarrollo sostenible de la escalada.
   techs: Gatsby
   img: andescalada.jpg
   when: "2021"
@@ -97,5 +89,22 @@
   url: https://lasdesistemas.org/
   description: Diseño y desarrollo de página web de la FemitConf "2018", organizadas por Las de Sistemas.
   techs: Jekyll
+  img: femitconf.jpg
   when: "2018"
+  featured: false
+
+- name: Tomás Garate
+  url: https://tomasgarate.cl/
+  description: Desarrollo de sitio web para el candidato a alcalde por la comuna de Puerto Varas, Tomás Garate.
+  techs: Jekyll
+  when: "2021"
+  img: tomas.jpg
+  featured: false
+
+- name: CAU
+  url: https://www.cau.cl/
+  description: Cambio y configuración de template de Wordpress.
+  techs: Wordpress
+  img: cau.jpg
+  when: "2016"
   featured: false
