@@ -1,0 +1,39 @@
+{%- assign default_paths = site.pages | map: "path" -%}
+{%- assign page_paths = site.header_pages | default: default_paths -%}
+{%- if page_paths -%}
+  <div class="uk-position-relative">
+    <img src="{{site.baseurl}}/assets/images/home.jpg" alt="">
+    <div class="uk-position-top uk-container uk-container-small">
+      <nav class="uk-navbar-container uk-navbar-transparent uk-padding-large uk-padding-remove-top uk-padding-remove-bottom" uk-navbar>
+        <div class="uk-navbar-left">
+          <a class="uk-navbar-item uk-logo" href="{{ "/" | relative_url }}">Daniela Quiroz Olguín</a>
+        </div>  
+        <div class="uk-navbar-right">
+          <ul class="uk-navbar-nav">
+            {%- for path in page_paths -%}
+              {%- assign my_page = site.pages | where: "path", path | first -%}
+              {%- if my_page.title -%}
+                <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+              {%- endif -%}
+            {%- endfor -%}
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="uk-position-center">
+      <div  class="uk-container">
+        <div class="uk-child-width-1-1@s uk-child-width-1-2@m" uk-grid>
+          <div>
+            <h2 class="title-about-me">¡Hola! Soy Dani, desarrolladora full-stack</h2>
+            <p>Llevo más de 3 años trabajando con organizaciones sin fines de lucro y desarrollando tecnología cívica, en particular aplicaciones web que buscan entregar herramientas a la ciudadanía para promover la participación, rendición de cuentas e incidencia.</p>
+            <!-- <img data-src="{{site.baseurl}}/assets/images/contact.png" width="48" alt="Mensaje" uk-img> -->
+            <a class="link-mail"> hola@daniela.tech</a>
+          </div>
+          <div class="uk-text-center">
+            <img data-src="{{site.baseurl}}/assets/images/daniela.png" width="400" alt="Daniela" uk-img>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+{%- endif -%}

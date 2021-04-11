@@ -1,0 +1,40 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+
+}
+
+p, h3, h4, h5, h6 {
+    font-family: $base-font-family;
+}
+
+h1, h2, .uk-h1, .uk-h2, {
+    font-family: $title-font-family;
+    font-weight: 500;
+}
+
+/**
+ * Basic styling
+ */
+body {
+
+}
+
+.uk-link, a {
+    color: $brand-primary-color;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.uk-link:hover, a:hover {
+    color: #F57F7D;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+

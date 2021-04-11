@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+// Define defaults for each variable.
+
+$base-font-family: 'Roboto', sans-serif;
+$title-font-family: 'Kiwi Maru', serif;
+
+$brand-primary-color: #F06966;
+$brand-secondary-color: #FAD6A6;
+
+$global-color:                                   #666 !default;
+$global-emphasis-color:                          #333 !default;
+$global-muted-color:                             #999 !default;
+
+$global-link-color:                              #d29d40 !default;
+$global-link-hover-color:                        #0f6ecd !default;
+
+$global-inverse-color:                           #fff !default;
+
+
+// Import partials.
+@import
+  "danitheme/base",
+  "danitheme/layout"
+;
